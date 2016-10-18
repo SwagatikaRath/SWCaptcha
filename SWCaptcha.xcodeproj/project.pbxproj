@@ -16,6 +16,8 @@
 		7C8879D61DB56F6200FB6B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8879D41DB56F6200FB6B0A /* LaunchScreen.storyboard */; };
 		7C8879E11DB56F6200FB6B0A /* SWCaptchaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8879E01DB56F6200FB6B0A /* SWCaptchaTests.m */; };
 		7C8879EC1DB56F6200FB6B0A /* SWCaptchaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8879EB1DB56F6200FB6B0A /* SWCaptchaUITests.m */; };
+		7C8879FB1DB5710C00FB6B0A /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8879FA1DB5710C00FB6B0A /* Record.m */; };
+		7C8879FE1DB5760E00FB6B0A /* HistoryPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8879FD1DB5760E00FB6B0A /* HistoryPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		7C8879E71DB56F6200FB6B0A /* SWCaptchaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWCaptchaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C8879EB1DB56F6200FB6B0A /* SWCaptchaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWCaptchaUITests.m; sourceTree = "<group>"; };
 		7C8879ED1DB56F6200FB6B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C8879F91DB5710C00FB6B0A /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		7C8879FA1DB5710C00FB6B0A /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		7C8879FC1DB5760E00FB6B0A /* HistoryPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryPageViewController.h; sourceTree = "<group>"; };
+		7C8879FD1DB5760E00FB6B0A /* HistoryPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +111,12 @@
 			children = (
 				7C8879C61DB56F6200FB6B0A /* AppDelegate.h */,
 				7C8879C71DB56F6200FB6B0A /* AppDelegate.m */,
+				7C8879F91DB5710C00FB6B0A /* Record.h */,
+				7C8879FA1DB5710C00FB6B0A /* Record.m */,
 				7C8879C91DB56F6200FB6B0A /* ViewController.h */,
 				7C8879CA1DB56F6200FB6B0A /* ViewController.m */,
+				7C8879FC1DB5760E00FB6B0A /* HistoryPageViewController.h */,
+				7C8879FD1DB5760E00FB6B0A /* HistoryPageViewController.m */,
 				7C8879CC1DB56F6200FB6B0A /* Main.storyboard */,
 				7C8879D21DB56F6200FB6B0A /* Assets.xcassets */,
 				7C8879D41DB56F6200FB6B0A /* LaunchScreen.storyboard */,
@@ -276,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8879FE1DB5760E00FB6B0A /* HistoryPageViewController.m in Sources */,
+				7C8879FB1DB5710C00FB6B0A /* Record.m in Sources */,
 				7C8879D11DB56F6200FB6B0A /* SWCaptcha.xcdatamodeld in Sources */,
 				7C8879CB1DB56F6200FB6B0A /* ViewController.m in Sources */,
 				7C8879C81DB56F6200FB6B0A /* AppDelegate.m in Sources */,
